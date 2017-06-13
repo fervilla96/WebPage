@@ -9,7 +9,11 @@ img {
     border-radius: 5px 5px 0 0;
 }
 
-
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
 h4 {
     color: white;
