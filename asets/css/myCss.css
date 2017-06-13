@@ -12,3 +12,8 @@ img {
 body {
 	background-image: url("https://static.pexels.com/photos/139312/pexels-photo-139312.jpeg");
 }
+
+h4 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
