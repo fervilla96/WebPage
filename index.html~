@@ -1,23 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  
-  <title>Hey! Whats up</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="/asets/css/animate.css">
+	<link rel="stylesheet" href="/asets/css/grid.css">
+	<link rel="stylesheet" href="/asets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/asets/css/w3.css">
+	<link rel="stylesheet" href="/asets/css/myCss.css">
+	
 </head>
-<body>
+<body background="/img/bg.jpg">
+	<br>
+	
+	<section class="grid">
 
-  <div class="container" >
-    <div class = "row">
-      <div class = "col-sm-4"> <h1>About me:</h1> </div>
-      <div class = "col-sm-8"> <p>My name is Fernando Villanueva. Im from Guadalajara, Jalisco, Mexico.</p>  </div>
-    </div>
-  </div>
+		<!-- Presentation card -->
+		<div class="smablet-half medium-quarter">
+			<div class="card w3-animate-left" style="background-color: white">    				
+    			<div class="w3-display-container">
+          			<img src="/img/me.jpg" alt="Avatar" style="width:100%">
+          			<div class="w3-display-bottomleft w3-container w3-text-white">
+            			<h4>Fernando Villanueva</h4> 
+         			 </div>
+        		</div>
+        		<div class="w3-container">
+         			<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Developer</p>
+          			<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Guadalajara, Mex.</p>
+          			<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="mailto:jfvs1@hotmail.com?Subject=Hi! my name is..." target="_top">jfvs1@hotmail.com</a></p>
+          			<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>3316046303</p>
+          			
+          			<hr>
+          			<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+  					<p>Spanish</p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          			</div>
+          			<p>English</p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              				<div class="w3-center w3-text-white">80%</div>
+           				</div>
+          			</div>          			
+          			
+          			<hr>
+          			
+          			<p class="w3-large"><b><i class="fa fa-user-circle fa-fw w3-margin-right w3-text-teal"></i>Find me!</b></p>
+          			<p>
+          				<i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://github.com/fervilla96" target="_blank">Fervilla96</a>          		</p>
+          			<p>			 
+          				<i class="fa fa-linkedin-square fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/fernando-villanueva-b80210139/" target="_blank">Fernando Villanueva</a> 
+          			</p>
+          			<p>
+          				<i class="fa fa-facebook-square fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.facebook.com/fernando.v.sanchez.5/" target="_blank">Fernando Villanueva Sánchez</a>
+          			</p>
+          			        			
+        		</div>		
+			</div>
+		</div>
+
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+												
+		<!-- Educaction / Work Experience card -->
+		<div class="smablet-half medium-half">
+			<div class="card w3-animate-top" style="background-color: white">
+  				<div class="w3-container">
+          			<p class="w3-large"><b><i class="fa fa-university fa-fw w3-margin-right w3-text-teal"></i>Education</b></p>
+          			<p class="w3-opacity"><b>ITESO, Bachelor's Degree Computers System Engineering</b></p>
+          			<p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - <span class="w3-tag w3-teal w3-round">Current</span></p>
+          			<p class="w3-opacity"><b>Graduation date</b></p>
+          			<p class="w3-text-teal"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>December 2018</p>
+          			
+          			<hr>
+          			
+          			<p class="w3-large"><b><i class="fa fa-suitcase fa-fw w3-margin-right w3-text-teal"></i>Work Experience</b></p>
+          			<p class="w3-opacity"><b>Freelance at DC Ligera</b></p>
+          			<p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2016 - March 2017 </p>
+          			<p class="w3-opacity"><b>Software Developer at AIMe</b></p>
+          			<p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2017 - <span class="w3-tag w3-teal w3-round">Current</span></p>
+          			<p class="w3-opacity"><b>Freelance as Web Developer</b></p>
+          			<p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2017 - <span class="w3-tag w3-teal w3-round">Current</span></p>
+          			
+          			<hr>
+          			
+          			<p class="w3-large"><b><i class="fa fa-check fa-fw w3-margin-right w3-text-teal"></i>Achievements</b></p>
+          			<p><i class="fa fa-trophy fa-fw w3-margin-right w3-large w3-text-teal"></i>Microsoft programming contest winner in 2016</p>
+          			<p><i class="fa fa-users fa-fw w3-margin-right w3-large w3-text-teal"></i>Member of the student council at ITESO</p>
+          			<hr>
+          			
+				</div>
+			</div>
+		</div>
+
+<!---------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------->
+		
+		<!--Skills card -->
+		<div class="smablet-half medium-quarter">
+			<div class="card w3-animate-right" style="background-color: white">
+  				<div class="w3-container">
+  				    <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          			<p>Java</p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+          			</div>
+          			<p>C++</p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          			</div>
+          			<p>HTML and CSS</p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          			</div>
+          			<p>SQL </p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          			</div>
+          			<p>Python </p>
+          			<div class="w3-light-grey w3-round-xlarge w3-small">
+            			<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          			</div> 			
+          			
+          			<hr>
+          			
+          			<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Qualities</b></p>
+          			<p><i class="fa fa-users fa-fw w3-margin-right w3-large w3-text-teal"></i>Leadership</p>
+					<p><i class="fa fa-lightbulb-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Creative</p>
+					<p><i class="fa fa-handshake-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Teamwork</p>
+					<p><i class="fa fa-cogs fa-fw w3-margin-right w3-large w3-text-teal"></i>Perseverance and motivation</p>
+					<p><i class="fa fa-pencil fa-fw w3-margin-right w3-large w3-text-teal"></i>Will to learn</p>
+					
+					<hr>
+					
+					<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Hobbies</b></p>
+					<p><i class="fa fa-futbol-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Soccer</p>
+					<p><i class="fa fa-book fa-fw w3-margin-right w3-large w3-text-teal"></i>Reading</p>
+					<p><i class="fa fa-keyboard-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Coding</p>
+					<p><i class="fa fa-music fa-fw w3-margin-right w3-large w3-text-teal"></i>Music</p>					
+  				</div>	
+			</div>
+		</div>	
+		
+	</section>
 
 </body>
 </html>
+
