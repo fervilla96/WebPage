@@ -8,38 +8,20 @@ body, html {
     background-size: cover;    
 }
 
-/* .info {        
-    height: auto;
-    width: auto;    
-    display: flex;
-    align-items: center;
-    justify-content: center;        
-    position:absolute; 
-    left:0; right:0;
-    top:0; bottom:0;
-    margin:auto;    
-} */
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
-header {
-  position: relative;
-  background-color: #3f51b5;
-  height: 150px;  
-  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+.cont {
+    position: absolute;
+    margin-right: 6em;
+    margin-bottom: 6em;
+    right:0;
+    bottom:0;
 }
 
 .add-button {      
     display: flex;
     align-items: center;
     justify-content: center;        
-    position:absolute; /*it can be fixed too*/
-    left:0; right:0;
-    top:0; bottom:0;
-    margin:auto;  
+    position: relative; 
+    
     
     width: 56px;
     height: 56px;
