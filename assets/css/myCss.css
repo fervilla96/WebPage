@@ -8,12 +8,29 @@ body, html {
     background-size: cover;    
 }
 
-.cont {
+/* .cont {
     position: absolute;
     margin-right: 6em;
     margin-bottom: 6em;
     right:0;
     bottom:0;
+}
+
+.card-presentation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 40%;
+    height: 40%;    
+    border: 5px solid red;
+    width: 200px;
+    height: 600px;    
+
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;        
 }
 
 .add-button {      
@@ -173,4 +190,4 @@ body, html {
   bottom: -25px;
   right: -25px;
   border-radius: 28px;
-}
+} */
